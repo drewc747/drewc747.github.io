@@ -4,64 +4,70 @@
 
 ### Machine Learning Projects 
 
-[Feature Reduction - (Python)](/projects/feature_reduction.md)
+[Feature Reduction - (Python) - IN PROGRESS](/projects/feature_reduction.md)
 
 ---
-[Regression - (Python, SciKitLearn)](/feature_reduction)
+[Regression - (Python, SciKitLearn) - COMING SOON](/projects/regression.md)
 
 ---
-[Random Forests and Gradient Boosting Decision Trees (Python, SkiKitLearn)](https://github.com/drewc747/machine-learning-examples/blob/master/feature_reduction/README.md)
+[Random Forests and Gradient Boosting Decision Trees (Python, SkiKitLearn) - COMING SOON](/projects/random_forests_gbdt.md)
 
 ---
-[Clustering (Python, SciKitLearn)](https://github.com/drewc747/machine-learning-examples/blob/master/feature_reduction/)
+[Clustering (Python, SciKitLearn) - COMING SOON](/projects/clustering.md)
 
 ---
 
 ### Deep Learning Projects
 
-[Basic MLP and Back-Propagation (Python, PyTorch)](http://example.com/)
+[Basic MLP and Back-Propagation (Python, PyTorch) - COMING SOON](/projects/mlp_back_prop.md)
 
 ---
-[MNIST Dataset using basic MLP, CNN, and RNN (Python, PyTorch, TensorFlow)](http://example.com/)
+[MNIST Dataset using basic MLP, CNN, and RNN (Python, PyTorch, TensorFlow) - COMING SOON](/projects/mnist_classifier.md)
 
 ---
-[CIFAR Dataset using CNN (Python, PyTorch)](http://example.com/)
+[CIFAR Dataset using CNN (Python, PyTorch) - COMING SOON](/projects/cifar_classifier.md)
 
 ---
-[Langauage Processing using LSTM (Python, PyTorch)](http://example.com/)
+[Langauage Processing using LSTM (Python, PyTorch) - COMING SOON](/projects/langauge_processing.md)
 
 ---
-[3D Deep Learning on 3D MNIST using various 3D CNNs and 3D CNN + RNN (Python, TensorFlow, Keras)](http://example.com/)
+[3D Deep Learning on 3D MNIST using various 3D CNNs and 3D CNN + RNN (Python, TensorFlow, Keras) - COMING SOON](/projects/3d_mnist_classifier.md)
 
 ---
 
 ### Computer Vision Projects
 
-[Filters (C++, Qt)](http://example.com/)
+[Filters (C++, Qt) - COMING SOON](/projects/cv_filters.md)
 
 ---
-[K-means Segmentation (C++, Qt)](http://example.com/)
+[K-means Segmentation (C++, Qt) - COMING SOON](/projects/k_means_segmentation.md)
 
 ---
 
 ### Software Engineering Projects
 
-[C/C++ Examples (C++, Docker, Unit Testing)](http://example.com/)
+[C/C++ Examples (C++, Docker, Unit Testing) - COMING SOON](/projects/sw_engineering.md)
 
 ---
 
 ### Autonomous Robotics Projects
 
-[PID Line Following (Python, ROS)](http://example.com/)
+[PID Line Following (Python, ROS) - COMING SOON](/projects/pid_line_following.md)
 
 ---
-[MPC (Python, ROS)](http://example.com/)
+[MPC (Python, ROS) - COMING SOON](/projects/mpc.md)
 
 ---
-[Particle Filter (Python, ROS)](http://example.com/)
+[Particle Filter (Python, ROS) - COMING SOON](/projects/particle_filter.md)
 
 ---
-[MPPI, ROS](http://example.com/)
+[MPPI (Python, ROS)  - COMING SOON](/projects/mppi.md)
+
+---
+
+### Various Other Projects
+
+[Room Density Tracker - COMING SOON](/projects/room_density_tracker.md
 
 ---
 
