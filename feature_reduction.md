@@ -4,6 +4,8 @@
 
 **Skills Demonstrated:** Python, Feature Reduction Techniques
 
+**Repository:** [GitHub Repository](https://github.com/drewc747/machine-learning-examples/tree/master/feature_reduction)
+
 **Project description:** In machine learning it is often desired to reduce the amount of features (or dimensions) of a given problem. As the number of features in a problem increases, so does the problem complexity. However, it is often the case the features are redundant and can be removed with minimal decrease in a models performance while significantly decreasing the models complexity. This project will first explore the curse of dimensionality, a simple projection example, and then implament some common techniques used for feature reduction as well as the advantages and disadvantages of each. Techniques to be explored are PCA, LDA, MDS, and LSH. 
 
 ### 1. What is feature reduction? A simple example:
@@ -98,4 +100,3 @@ This simple example shows that feature reduction can be performed in order to si
 
 ### 6. Locality Sensitive Hashing (LSH)
 
-For all code, see [GitHub Repository](https://github.com/drewc747/machine-learning-examples/tree/master/feature_reduction)
