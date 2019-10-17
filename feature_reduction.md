@@ -78,7 +78,7 @@ Upon closer inspection, you can see that if you were to project all the data ont
 
 Alternatively, if we try projecting the data onto the y-axis, we no longer have the ability to distinguish the red circles and blue square based on just the y value.  The plot below shows the data projected onto the y-axis.
 
-<img src = "images/eature_reduction/gaussian_scatter_y_proj.png" />
+<img src = "images/feature_reduction/gaussian_scatter_y_proj.png" />
 
 This simple example shows that feature reduction can be performed in order to simplify a problem by removing redundant features. In this case, the y-value is redundant and unecessary for the classification of red circles and blue squares.
 
