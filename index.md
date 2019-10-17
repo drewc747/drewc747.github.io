@@ -2,22 +2,26 @@
 
 ---
 
-### Category Name 1 
+### Machine Learning Projects 
 
-[Project 1 Title](/sample_page)
+[Feature Reduction](/feature_reduction)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Regression](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Random Forests and Gradient Boosting Decision Trees](http://example.com/)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[Clustering](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
+### Deep Learning Projects
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
@@ -27,8 +31,15 @@
 
 ---
 
+### Computer Vision Projects
 
+---
 
+### Software Engineering Projects
+
+---
+
+### Autonomous Robotics Projects
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
