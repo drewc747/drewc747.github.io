@@ -4,64 +4,64 @@
 
 ### Machine Learning Projects 
 
-[Feature Reduction - (Python) - IN PROGRESS](/projects/feature_reduction.md)
+[Feature Reduction - (Python) - <sup>**_IN PROGRESS_**</sup>](/projects/feature_reduction.md)
 
 ---
-[Regression - (Python, SciKitLearn) - COMING SOON](/projects/regression.md)
+[Regression - (Python, SciKitLearn) - **_COMING SOON_**](/projects/regression.md)
 
 ---
-[Random Forests and Gradient Boosting Decision Trees (Python, SkiKitLearn) - COMING SOON](/projects/random_forests_gbdt.md)
+[Random Forests and Gradient Boosting Decision Trees (Python, SkiKitLearn) - **_COMING SOON_**](/projects/random_forests_gbdt.md)
 
 ---
-[Clustering (Python, SciKitLearn) - COMING SOON](/projects/clustering.md)
+[Clustering (Python, SciKitLearn) - **_COMING SOON_**](/projects/clustering.md)
 
 ---
 
 ### Deep Learning Projects
 
-[Basic MLP and Back-Propagation (Python, PyTorch) - COMING SOON](/projects/mlp_back_prop.md)
+[Basic MLP and Back-Propagation (Python, PyTorch) - **_COMING SOON_**](/projects/mlp_back_prop.md)
 
 ---
-[MNIST Dataset using basic MLP, CNN, and RNN (Python, PyTorch, TensorFlow) - COMING SOON](/projects/mnist_classifier.md)
+[MNIST Dataset using basic MLP, CNN, and RNN (Python, PyTorch, TensorFlow) - **_COMING SOON_**](/projects/mnist_classifier.md)
 
 ---
-[CIFAR Dataset using CNN (Python, PyTorch) - COMING SOON](/projects/cifar_classifier.md)
+[CIFAR Dataset using CNN (Python, PyTorch) - **_COMING SOON_**](/projects/cifar_classifier.md)
 
 ---
-[Langauage Processing using LSTM (Python, PyTorch) - COMING SOON](/projects/langauge_processing.md)
+[Langauage Processing using LSTM (Python, PyTorch) - **_COMING SOON_**](/projects/langauge_processing.md)
 
 ---
-[3D Deep Learning on 3D MNIST using various 3D CNNs and 3D CNN + RNN (Python, TensorFlow, Keras) - COMING SOON](/projects/3d_mnist_classifier.md)
+[3D Deep Learning on 3D MNIST using various 3D CNNs and 3D CNN + RNN (Python, TensorFlow, Keras) - **_COMING SOON_**](/projects/3d_mnist_classifier.md)
 
 ---
 
 ### Computer Vision Projects
 
-[Filters (C++, Qt) - COMING SOON](/projects/cv_filters.md)
+[Filters (C++, Qt) - **_COMING SOON_**](/projects/cv_filters.md)
 
 ---
-[K-means Segmentation (C++, Qt) - COMING SOON](/projects/k_means_segmentation.md)
+[K-means Segmentation (C++, Qt) - **_COMING SOON_**](/projects/k_means_segmentation.md)
 
 ---
 
 ### Software Engineering Projects
 
-[C/C++ Examples (C++, Docker, Unit Testing) - COMING SOON](/projects/sw_engineering.md)
+[C/C++ Examples (C++, Docker, Unit Testing) - **_COMING SOON_**](/projects/sw_engineering.md)
 
 ---
 
 ### Autonomous Robotics Projects
 
-[PID Line Following (Python, ROS) - COMING SOON](/projects/pid_line_following.md)
+[PID Line Following (Python, ROS) - **_COMING SOON_**](/projects/pid_line_following.md)
 
 ---
-[MPC (Python, ROS) - COMING SOON](/projects/mpc.md)
+[MPC (Python, ROS) - **_COMING SOON](/projects/mpc.md)
 
 ---
-[Particle Filter (Python, ROS) - COMING SOON](/projects/particle_filter.md)
+[Particle Filter (Python, ROS) - **_COMING SOON_**_**](/projects/particle_filter.md)
 
 ---
-[MPPI (Python, ROS) - COMING SOON](/projects/mppi.md)
+[MPPI (Python, ROS) - **_COMING SOON_**](/projects/mppi.md)
 
 ---
 
