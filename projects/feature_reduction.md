@@ -1,5 +1,7 @@
 ## Feature Reduction
 
+**Github Repository:** [GitHub Repository](https://github.com/drewc747/machine-learning-examples/tree/master/feature_reduction)
+
 **Techniques Explored:** Principle Componant Analysis (PCA), Linear Discriminant Analysis (LDA), Multi-Dimensional Scaling (MDS), Locality Sensitive Hashing (LSH)
 
 **Skills Demonstrated:** Python, Feature Reduction Techniques
@@ -196,4 +198,3 @@ The plots above agree with the formulas we derived, as *m* is increased, the ave
 
 ### 6. Locality Sensitive Hashing (LSH)
 
-For all code, see [GitHub Repository](https://github.com/drewc747/machine-learning-examples/tree/master/feature_reduction)

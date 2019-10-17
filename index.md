@@ -28,7 +28,7 @@
 [CIFAR Dataset using CNN (Python, PyTorch) <sup>**_COMING SOON_**</sup>](/projects/cifar_classifier.md)
 
 ---
-[Langauage Processing using LSTM (Python, PyTorch) <sup>**_COMING SOON_**</sup>](/projects/langauge_processing.md)
+[Language Processing using LSTM (Python, PyTorch) <sup>**_COMING SOON_**</sup>](/projects/language_processing.md)
 
 ---
 [3D Deep Learning on 3D MNIST using various 3D CNNs and 3D CNN + RNN (Python, TensorFlow, Keras) <sup>**_COMING SOON_**</sup>](/projects/3d_mnist_classifier.md)
