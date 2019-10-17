@@ -9,6 +9,8 @@
 ### 1. What is feature reduction? A simple example:
 As a simple example, let look at training data in a 2D space consisting of red circles and blue squares. The plot below shows these data points in xy space.
 
+<img src = "https://github.com/drewc747/machine-learning-examples/blob/master/feature_reduction/gaussian_scatter.png" />
+
 Based on this training data, we may want to create a classifier that can tell us whether a data point is a circle or square based on the xy coordinates, and in the case above there is a clear correlation with xy coordinates and whether or not a data point is a circle or a square. We could draw a line between to seperate the training data, and then use that line for the test data to make a prediction on whether or not a data point is a red circle or blue square based on where the datapoint falls relative to the line. The plot shows one line that may work for this.
 
 Upon closer inspection, you can see that if you were to project all the data onto the x-axis, there is still seperation between the data points suggesting the the only feature that is needed to classify this data set is the x-coordinate. The plot below shows the data points projected onto the x axis and a point on the x-axis used as a threshold for classification.
