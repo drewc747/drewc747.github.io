@@ -68,7 +68,7 @@ The code is a bit overkill for this example but is meant to be scalable for more
 
 Based on this training data, we may want to create a classifier that can tell us whether a data point blue or orange based on the xy coordinates, and in the case above there is a clear correlation with xy coordinates and color. We could draw a line between to seperate the training data, and then use that line for the test data to make a prediction on whether or not a data point is blue or orange based on where the datapoint falls relative to the line. Without getting into advanced techniques, we may just naiively choose any arbitrary line that seperates the two classes like shown in the plot below.
 
-<img src = "https://github.com/drewc747/machine-learning-examples/blob/master/feature_reduction/figures/gaussian_scatter_arb_line.png" />
+<img src = "../../machine-learning-examples/blob/master/feature_reduction/figures/gaussian_scatter_arb_line.png" />
 
 Using this line we can now predict what color future data points are based on their x,y corridinates. If the point falls to the left of the line, we may predict it to be blue, otherwise we would predict it to be orange.
 
