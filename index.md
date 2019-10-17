@@ -4,7 +4,7 @@
 
 ### Machine Learning Projects 
 
-[Feature Reduction](/feature_reduction)
+[Feature Reduction](/feature_reduction.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
