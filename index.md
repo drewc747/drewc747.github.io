@@ -61,13 +61,13 @@
 [Particle Filter (Python, ROS) - COMING SOON](/projects/particle_filter.md)
 
 ---
-[MPPI (Python, ROS)  - COMING SOON](/projects/mppi.md)
+[MPPI (Python, ROS) - COMING SOON](/projects/mppi.md)
 
 ---
 
 ### Various Other Projects
 
-[Room Density Tracker - COMING SOON](/projects/room_density_tracker.md)
+[Room Density Tracker (Python) - **_COMING SOON_**](/projects/room_density_tracker.md)
 
 ---
 
