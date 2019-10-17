@@ -2,9 +2,9 @@
 
 **Github Repository:** [GitHub Repository](https://github.com/drewc747/machine-learning-examples/tree/master/regression)
 
-**Techniques Explored:** 
+**Techniques Explored:** Ridge, Linear, Logistic, and Lasso Regression
 
-**Skills Demonstrated:** 
+**Skills Demonstrated:** Python, Scikit-Learn
 
 **Project description:** 
 

@@ -2,9 +2,9 @@
 
 **Github Repository:** [GitHub Repository](https://github.com/drewc747/room-density-tracker)
 
-**Techniques Explored:** 
+**Techniques Explored:** State Machines
 
-**Skills Demonstrated:** 
+**Skills Demonstrated:** Python, Unit Testing
 
 **Project description:** 
 

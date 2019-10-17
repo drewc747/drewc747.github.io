@@ -50,6 +50,10 @@
 
 ---
 
+[Room Density Tracker (Python) <sup>**_COMING SOON_**</sup>](/projects/room_density_tracker.md)
+
+---
+
 ### Autonomous Robotics Projects
 
 [PID Line Following (Python, ROS) <sup>**_COMING SOON_**</sup>](/projects/pid_line_following.md)
@@ -62,12 +66,6 @@
 
 ---
 [MPPI (Python, ROS) <sup>**_COMING SOON_**</sup>](/projects/mppi.md)
-
----
-
-### Various Other Projects
-
-[Room Density Tracker (Python) <sup>**_COMING SOON_**</sup>](/projects/room_density_tracker.md)
 
 ---
 

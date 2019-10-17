@@ -2,9 +2,9 @@
 
 **Github Repository:** [GitHub Repository](https://github.com/drewc747/machine-learning-examples/tree/master/decision_trees)
 
-**Techniques Explored:** 
+**Techniques Explored:** Random Forests and Gradient Boosting Decision Trees
 
-**Skills Demonstrated:** 
+**Skills Demonstrated:** Python, Scikit-Learn
 
 **Project description:** 
 

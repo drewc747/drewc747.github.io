@@ -4,7 +4,7 @@
 
 **Techniques Explored:** 
 
-**Skills Demonstrated:** 
+**Skills Demonstrated:** C++, Docker, Unit Testing
 
 **Project description:** 
 

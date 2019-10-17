@@ -2,9 +2,9 @@
 
 **Github Repository:** [GitHub Repository](https://github.com/drewc747/autonomous-robotics-examples/tree/master/mpc)
 
-**Techniques Explored:** 
+**Techniques Explored:** MPC
 
-**Skills Demonstrated:** 
+**Skills Demonstrated:** Python, ROS
 
 **Project description:** 
 

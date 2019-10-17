@@ -2,9 +2,9 @@
 
 **Github Repository:** [GitHub Repository](https://github.com/drewc747/autonomous-robotics-examples/tree/master/particle_filter)
 
-**Techniques Explored:** 
+**Techniques Explored:** Particle Filter, Motion Models, Sensor Models
 
-**Skills Demonstrated:** 
+**Skills Demonstrated:** Python, ROS
 
 **Project description:** 
 
