@@ -67,7 +67,7 @@
 
 ### Various Other Projects
 
-[Room Density Tracker - COMING SOON](/projects/room_density_tracker.md
+[Room Density Tracker - COMING SOON](/projects/room_density_tracker.md)
 
 ---
 
