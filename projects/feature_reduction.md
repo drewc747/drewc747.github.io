@@ -85,6 +85,104 @@ This simple example shows that feature reduction can be performed in order to si
 
 ### 2. Why is feature reduction important? The curse of dimensionality:
 
+The simple example above shows what feature reduction is, but typically a 2D problem isn't a problem we would need to perform feature reduction. However, most machine learning problems deal with high dimensions, which is hard to visualize and isn't as simple as plotting the data and picking a line to seperate the classes. In this section, we'll explore the curse of dimensionality and show why feature reduction is so important for higher dimensional problems.
+
+The curse of dimensionality refers to various phenomona that occurs when increasing dimensions. One such phenomona is that as dimensions increase, dimension space increases exponentially. This can be imagined in the projection example above. The data can be represented on the x-axis with a dimensional space of 15 (from -7.5 to 7.5), but when the y-axis is taken into account it is represented in the x range by 15 and the y range by 17.5 (-5 to 12.5), giving a total dimensional space of 15*17.5 = 262.5. So by removing the redundant y value, we reduce the dimensional space from 262.5 to 15. In general, as the amount of features increases, the requried dimensional space increases exponentially.
+
+Another phenomona is sparsity, since dimensional space increases exponentially, but the number of samples remains a constant, the area between samples increases exponentially as well which can make it more difficult to group data and efficiently generalize. As the features continue to increase without increasing the amount of training samples, there is a higher opporunity to overfit. In order to explore this problem in more detail, we will use the Gaussian distribution in high dimensional space. A spherical Gaussian in *m* dimensions can be explained by the following equation:
+
+&ensp;&ensp;&ensp;<img src = "images/gaussian_m_dimensions_eqn.png"/>
+
+We define an *m*-dimensional sphere as a set of points in *m*-dimensional space that a distance *r* from the origin.
+
+&ensp;&ensp;&ensp;<img src = "images/sphere_m_dimensions_eqn.png"/>
+
+Where *S*<sub>*m-1*</sub>*(r)* represents the surface area of the *m*-dimensional sphere. The integral of the surface area gives us the volume of the sphere, or alternatively, the surface area can be expressed as the derivative of the volume:
+
+&ensp;&ensp;&ensp;<img src = "images/sphere_surface_area_eqn.png"/>
+
+Given that the volume of an *m*-dimensional circle is represented by:
+
+&ensp;&ensp;&ensp;<img src = "images/sphere_m_dim_volume_eqn.png"/>
+
+Where *C* is some constant, and *r* is the radius of the sphere, we can then perform the derivative to get *S*<sub>*m-1*</sub>*(r)*:
+
+&ensp;&ensp;&ensp;<img src = "images/sphere_surface_area_r_eqn.png"/>
+
+If we look at a unit sphere (*r* = 1), the surface area of a unit circle simplifies to:
+
+&ensp;&ensp;&ensp;<img src = "images/unit_sphere_surface_area_eqn.png"/>
+
+Substituting this in for our equation of the surface area of any *m*-dimensional sphere yields:
+
+&ensp;&ensp;&ensp;<img src = "images/sphere_surface_area_r_unit_sphere_eqn.png" />
+
+We can then calculate the density of the sampled points using the above equations. For any *x* lying on the sphere with radius *r*, the probability density is the same as ||*x*||<sub>2</sub> = *r*. Therefore we can directly multiply the probability density of every point by the surface area and get:
+
+&ensp;&ensp;&ensp;<img src = "images/sphere_density_eqn.png" />
+
+We can then calculate the radius at which the density has a single maximum value, *r_hat* for large *m* by taking the gradient with respect to *r* to be zero and solve for *r_hat*.
+
+&ensp;&ensp;&ensp;<img src = "images/r_hat_sol_1.png" />
+
+&ensp;&ensp;&ensp;<img src = "images/r_hat_sol_2.png" />
+
+&ensp;&ensp;&ensp;<img src = "images/r_hat_sol_3.png" />
+
+For large *m*, we now consider a small value *epsilon* << *r_hat* and consider to the density ratio of *r_hat + epsilon* over *r_hat*:
+
+&ensp;&ensp;&ensp;<img src = "images/density_ratio_sol_1.png" />
+
+&ensp;&ensp;&ensp;<img src = "images/density_ratio_sol_2.png" />
+
+&ensp;&ensp;&ensp;<img src = "images/density_ratio_sol_3.png" />
+
+Using Taylor expansion for the log function, we get the following approximation:
+
+&ensp;&ensp;&ensp;<img src = "images/density_ratio_sol_4.png" />
+
+&ensp;&ensp;&ensp;<img src = "images/density_ratio_sol_5.png" />
+
+And finally we are left with the approximated density ratio for large *m*:
+
+&ensp;&ensp;&ensp;<img src = "images/density_ratio_sol_6.png" />
+
+Putting this all together we see that for a high dimensional gaussian, the greatest density of samples will reside near *r_hat* = *sqrt(m-1) * sigma*, and as you move away from that radius by some distance *epsilon*, the density will decrease exponentially as *exp*(-*epsilon*<sup>*2*</sup>/*sigma*<sup>*2*</sup>). However, in low dimensions, for example 2D and 3D, we see the majority of the samples reside near the origin within *sigma*.
+
+We can write a quick python script that samples from an m-dimensional Gaussian to show this. In the script below we produce 100 samples and compute the mean and standard deviation of the radius of the samples for each value *m* from 1 to 500.
+
+```python
+num_samples = 100
+dim = range(1, 500)
+
+r_mean = []
+r_sigma = []
+
+for d in dim:
+    # Generate m-dimensional gaussian points and calculate radius and sigma
+    normal_deviates = np.random.normal(size=(d, num_samples))
+    radius = np.sqrt((normal_deviates**2).sum(axis=0))
+    sigma = np.std(radius)
+    
+    r_mean.append(np.mean(radius))
+    r_sigma.append(sigma)
+
+fig, ax = plt.subplots(figsize=(7, 7))
+ax.plot(dim, r_mean)
+ax.set(xlabel='Dimensions', ylabel='Radius mean', title='Radius vs dimensions - 100 samples')
+plt.show
+
+fig, ax = plt.subplots(figsize=(7, 7))
+ax.plot(dim,r_sigma)
+ax.set(xlabel='Dimensions', ylabel='Sigma', title='Sigma vs. dimensions - 100 samples')
+plt.show()
+```
+
+&ensp;&ensp;&ensp;<img src = "images/curse_of_dim_radius.png" />
+
+&ensp;&ensp;&ensp;<img src = "images/curse_of_dim_sigma.png" />
+
+The plots above agree with the formulas we derived, as *m* is increased, the average radius in creases as the *sqrt(m) * sigma*. Since *sigma* doesn't increase, the majority of the points stay near the radius and the majority of the points live only on the "shell" of the *m*-dimensional sphere as opposed to the entire volume.
 
 ### 3. Principle Componant Analysis (PCA)
 
