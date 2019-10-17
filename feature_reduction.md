@@ -83,8 +83,6 @@ Alternatively, if we try projecting the data onto the y-axis, we no longer have 
 This simple example shows that feature reduction can be performed in order to simplify a problem by removing redundant features. In this case, the y-value is redundant and unecessary for the classification of red circles and blue squares.
 
 
-```
-
 ### 2. Why is feature reduction important? The curse of dimensionality:
 
 
