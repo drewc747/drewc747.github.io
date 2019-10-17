@@ -1,6 +1,6 @@
 ## CV Filters
 
-**Github Repository:** [GitHub Repository](https://github.com/drewc747/machine-vision-examples/tree/master/cv_filtering)
+**Github Repository:** [GitHub Repository](https://github.com/drewc747/machine-vision-examples/tree/master/cv_filters)
 
 **Techniques Explored:** 
 
