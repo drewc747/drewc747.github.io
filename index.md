@@ -8,15 +8,15 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Regression](/pdf/sample_presentation.pdf)
+[Regression](/feature_reduction)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Random Forests and Gradient Boosting Decision Trees](http://example.com/)
+[Random Forests and Gradient Boosting Decision Trees](https://github.com/drewc747/machine-learning-examples/blob/master/feature_reduction/README.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Clustering](http://example.com/)
+[Clustering](https://github.com/drewc747/machine-learning-examples/blob/master/feature_reduction/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
