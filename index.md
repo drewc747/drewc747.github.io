@@ -4,7 +4,7 @@
 
 ### Machine Learning Projects 
 
-[Feature Reduction - (Python) <sup>**_IN PROGRESS_**</sup>](/projects/feature_reduction.md)
+[Dimension Reduction - (Python) <sup>**_IN PROGRESS_**</sup>](/projects/dimension_reduction.md)
 
 ---
 [Regression - (Python, SciKitLearn) <sup>**_COMING SOON_**</sup>](/projects/regression.md)
