@@ -12,7 +12,7 @@
 
 [Regression - (Python, SciKitLearn) <sup>**_COMING SOON_**</sup>](/projects/regression.md)
 
-[Random Forests and Gradient Boosting Decision Trees (Python, SkiKitLearn) <sup>**_COMING SOON_**</sup>](/projects/decision_trees.md)
+[Decision Trees (Python, SkiKitLearn) <sup>**_COMING SOON_**</sup>](/projects/decision_trees.md)
 
 [Clustering (Python, SciKitLearn) <sup>**_COMING SOON_**</sup>](/projects/clustering.md)
 
