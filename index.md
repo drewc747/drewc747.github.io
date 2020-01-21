@@ -12,9 +12,9 @@
 
 [Predicting 6DoF Pose From 2D Images - Kaggle Competition](/papers/Predicting_6DoF_Pose_From_2D_Images.pdf)
 
-[Autonomous RC Car] (/projects/autonomous_rc_car.md)
+[Autonomous RC Car](/projects/autonomous_rc_car.md)
 
-[2 Player Pong] (/projects/2p_pong.md)
+[2 Player Pong](/projects/2p_pong.md)
 
 ### Machine Learning Tutorials 
 
