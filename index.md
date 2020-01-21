@@ -4,7 +4,19 @@
 
 *Each module below is a tutorial for the given topic. A tutorial format was chosen as it is most difficult to try to teach a topic and it demonstrates a general understanding of the concepts. While the modules are in progress, each module has an outline of what it will cover (Target date for all modules to be finished: Mid-November). The parenthesis of each topic point out some of the key skills used in each module for code examples to support my resume. Although each module attempts to discuss background information for the topic, a general background in each category is assumed. The modules below sample the skills learned through my graduate program and various side projects/hobbies, but doesn't include all skills or techniques. Some of the projects and assignments I worked on can't be shared publicly, but can be provided on a case by case basis. For examples of skills or techniques not included, or if a module isn't finished, please feel free to reach out to me at <a href="https://www.linkedin.com/in/drewc747/">LinkedIn</a> or drewc747@gmail.com, and I would be happy to provide additional samples if possible.*
 
-### Machine Learning Projects 
+### Key Project Reports
+
+---
+
+[Deep 3D CNN's for Localization and Classification of Lesions in Breast Tomosynthesis Scans](/papers/Localizations_and_Classification_of_Lesions_in_Breast_Tomosynthesis_Scans_Using_3D_CNNs.pdf)
+
+[Predicting 6DoF Pose From 2D Images - Kaggle Competition](/papers/Predicting_6DoF_Pose_From_2D_Images.pdf)
+
+[Autonomous RC Car] (/projects/autonomous_rc_car.md)
+
+[2 Player Pong] (/projects/2p_pong.md)
+
+### Machine Learning Tutorials 
 
 ---
 
@@ -16,7 +28,7 @@
 
 [Clustering (Python, SciKitLearn) <sup>**_COMING SOON_**</sup>](/projects/clustering.md)
 
-### Deep Learning Projects
+### Deep Learning Tutorials 
 
 ---
 
@@ -30,7 +42,7 @@
 
 [3D Deep Learning on 3D MNIST using various 3D CNNs and 3D CNN + RNN (Python, TensorFlow, Keras) <sup>**_COMING SOON_**</sup>](/projects/3d_mnist_classifier.md)
 
-### Computer Vision Projects
+### Computer Vision Tutorials 
 
 ---
 
@@ -38,7 +50,11 @@
 
 [K-means Segmentation (C++, Qt) <sup>**_COMING SOON_**</sup>](/projects/k_means_segmentation.md)
 
-### Software Engineering Projects
+[Corner Detection and KeyPoint Detection (i.e. Harris, SIFT, SURF, etc..)  <sup>**_COMING SOON_**</sup>](/projects/keypoint_detection.md)
+
+[RANSAC <sup>**_COMING SOON_**</sup>](/projects/ransac.md)
+
+### Software Engineering Tutorials 
 
 ---
 
@@ -46,7 +62,7 @@
 
 [Room Density Tracker (Python) <sup>**_COMING SOON_**</sup>](/projects/room_density_tracker.md)
 
-### Autonomous Robotics Projects
+### Autonomous Robotics Tutorials 
 
 ---
 
