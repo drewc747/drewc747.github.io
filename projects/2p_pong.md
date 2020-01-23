@@ -2,7 +2,7 @@
 
 **Github Repository:** *Coming Soon*
 
-**Paper Link:** [Paper Link]()
+**Paper Link:** [PDF](https://github.com/drewc747/drewc747.github.io/blob/master/pdf/2p_pong.pdf)
 
 **Techniques Explored:** Finite State Machines, Simulation, Circuit Design, Testing
 
